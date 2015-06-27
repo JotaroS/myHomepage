@@ -1,0 +1,188 @@
+@import url("reset.css");
+
+body
+{
+	background: #DDD;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 30px 0 10px 0;
+}
+
+a { color: #30797F; text-decoration: none;  }
+a:hover { color: #999; text-transform: none; }
+
+
+/* Main Styles */
+/*To check the border of the container*/
+/*simply insert -- border: 1px solid black; -- */
+#container
+{
+	margin: 0 auto;
+	width: 880px;
+	padding: 20px;
+	background: #FFF;
+}
+
+	#headercont
+	{
+		width: 880px;
+		height: 80px;
+	}
+	
+		#headercont h1 a
+		{
+			color: #4EC3CB;
+			font-size: 30px;
+			line-height: 70px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		
+		#headercont h1 a:hover
+		{
+			color: #30797F;
+		}
+		
+	#menucont
+	{
+		width: 880px;
+		height: 46px;
+		margin: 0 0 15px 0;
+		background: #4EC3CB;
+	}
+	
+			#menucont ul
+			{
+				float: left;
+				list-style-type: none;
+			}
+		
+			#menucont ul li
+			{
+				float: left;
+				overflow: hidden;
+				height: 46px;
+			}
+		
+			#menucont ul li a
+			{
+				padding: 0 20px;
+				float: left; 
+				text-decoration: none; 
+				color: #FFF;
+				text-transform: uppercase;
+				line-height: 46px;
+				font-weight: bold;
+			}
+		
+				#menucont ul li a.currentpage
+				{
+					background: #30797F;
+					color: #4EC3CB;
+				}
+		
+			#menucont ul li a:hover
+			{
+				background: #30797F;
+			}
+			
+	#middlecont
+	{
+		width: 880px;
+		height: 250px;
+		margin: 0 0 15px 0;
+		background: #DDD;
+	}
+	
+	#maincont
+	{
+		width: 880px;
+		line-height: 22px;
+		padding: 10px 0 0 0;
+	}
+	
+			#maincont p { margin: 0 0 15px 0; }
+			#maincont h1, #maincont h2, #maincont h3, #maincont h4, #maincont h5 { 
+				margin: 0 0 15px 0; font-weight: normal; letter-spacing: -1px; 
+			}
+			#maincont h1 { font-size: 26px; }
+			#maincont h2 { font-size: 24px; }
+			#maincont h3 { font-size: 24px; }
+			#maincont h4 { font-size: 22px; }
+			#maincont h5 { font-size: 22px; }
+			
+			#maincont ul { margin: 0 0 15px 35px; list-style-type: square; }
+			#maincont ul li { padding: 0 0 0 2px; }
+			
+			#maincont ol { margin: 0 0 15px 35px; list-style-type: decimal; }
+			#maincont ol li { padding: 0 0 0 2px; }
+			
+			#maincont blockquote { 
+				background: #EEE; 
+				border-left: 3px solid #4EC3CB; 
+				padding: 15px; 
+				margin: 0 0 15px 0; 
+				font-style: italic; 
+				line-height: 18px;
+			}
+	
+		#maincont #mainleft
+		{
+			float: left;
+			width: 560px;
+		}
+			#maincont #mainleft .alignright{
+				float:left;
+				margin: 5px 10px 0px 0px;
+			}
+
+		#maincont #mainright
+		{
+			float: left;
+			width: 280px;
+			padding: 0 0 0 40px;
+			font-size: 11px;
+			color: #777;
+		}
+
+			#maincont #mainright ul.sidemenu
+			{
+				float: left;
+				width: 280px;
+				margin: 0 0 15px 0;
+			}
+			
+			#maincont #mainright ul.sidemenu li
+			{
+				display: block;
+				list-style-type: none;
+
+			}
+			
+			#maincont #mainright ul.sidemenu li a
+			{
+				float: left;
+				width: 260px;
+				padding: 6px 10px;
+				margin: 0 0 1px 0;
+				background: #EEE;
+				color: #30797F;
+			}
+			
+			#maincont #mainright ul.sidemenu li a:hover
+			{
+				color: #FFF;
+				background: #30797F;
+			}
+
+
+
+#footercont
+{
+	margin: 0 auto;
+	width: 880px;
+	padding: 20px;
+	font-size: 11px;
+	color: #777;
+	text-align: right;
+}

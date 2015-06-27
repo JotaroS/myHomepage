@@ -1,0 +1,51 @@
+@import url("reset.css");
+
+body
+{
+	background: #DDD;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 30px 0 10px 0;
+}
+
+
+
+/* Main Styles */
+/*To check the border of the container*/
+/*simply insert -- border: 1px solid black; -- */
+#container
+{
+}
+
+	#headercont
+	{
+	}
+	
+
+		
+	#menucont
+	{
+	}
+	
+			
+	#middlecont
+	{
+	}
+	
+	#maincont
+	{
+	}
+		#maincont #mainleft
+		{
+		}
+		
+
+		#maincont #mainright
+		{
+		}
+
+
+
+#footercont
+{
+}

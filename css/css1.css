@@ -1,0 +1,91 @@
+@import url("reset.css");
+
+body
+{
+	background: #DDD;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 30px 0 10px 0;
+}
+
+a { color: #30797F; text-decoration: none;  }
+a:hover { color: #999; text-transform: none; }
+
+
+/* Main Styles */
+/*To check the border of the container*/
+/*simply insert -- border: 1px solid black; -- */
+
+
+#container
+{
+	margin: 0 auto;
+	width: 880px;
+	padding: 20px;
+	background: #FFF;
+}
+
+	#headercont
+	{
+		width: 880px;
+		height: 80px;
+	}
+	
+
+		
+	#menucont
+	{
+		width: 880px;
+		height: 46px;
+		margin: 0 0 15px 0;
+		background: #4EC3CB;
+	}
+	
+			
+	#middlecont
+	{
+		width: 880px;
+		height: 250px;
+		margin: 0 0 15px 0;
+		background: #DDD;
+	}
+
+	#maincont
+	{
+		width: 880px;
+		line-height: 22px;
+		padding: 0px 0 0 0;
+	}
+
+		#maincont #mainleft
+		{
+			float: left;
+			width: 560px;
+		}
+		
+			/*#maincont #mainleft .alignright{*/
+				/*float:left;*/
+				/*margin: 10px 10px 0px 0px;*/
+			/*}*/
+		
+
+		#maincont #mainright
+		{
+			float: left;
+			width: 280px;
+			padding: 0 0 0 40px;
+			font-size: 11px;
+			color: #777;
+		}
+
+
+
+#footercont
+{
+	margin: auto;
+	width: 880px;
+	padding: 20px;
+	font-size: 11px;
+	color: #777;
+	text-align: right;
+}
